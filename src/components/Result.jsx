@@ -28,6 +28,7 @@ const Result = () => {
     setScore(calculatedScore);
   }, [state, navigate]);
 
+
   return (
     <div>
       <h1>Result: {score}</h1>

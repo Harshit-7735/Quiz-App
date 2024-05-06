@@ -33,6 +33,42 @@ const Quiz = () => {
       question: "How many Harry Potter books are there?",
       options: ["1", "4", "6", "7"],
       answer: 3,
+    },
+    {
+      id: 5,
+      question: "How many continents are there?",
+      options: ["3", "5", "6", "7"],
+      answer: 3,
+    },
+    {
+      id: 6,
+      question: "Virat Kohli is famous for which sport?",
+      options: ["Cricket", "Football", "Tennis", "Hockey"],
+      answer: 0,
+    }
+    ,{
+      id: 7,
+      question: "What is the capital of India?",
+      options: ["New Delhi", "Mumbai", "Kolkata", "Chennai"],
+      answer: 0,
+    },
+    {
+      id: 8,
+      question: "Who is the author of Harry Potter series?",
+      options: ["J.K. Rowling", "J.R.R. Tolkien", "George R.R. Martin", "Stephen King"],
+      answer: 0,
+    },
+    {
+      id: 9,
+      question: "Which is the largest planet in our solar system?",
+      options: ["Earth", "Jupiter", "Mars", "Venus"],
+      answer: 1,
+    },
+    {
+      id: 10,
+      question: "Who is the current President of the United States?",
+      options: ["Joe Biden", "Barack Obama", "Donald Trump", "George Bush"],
+      answer: 0,
     }
   ]);
   // initially answers is an array of null values with length equal to that of the number of questions
